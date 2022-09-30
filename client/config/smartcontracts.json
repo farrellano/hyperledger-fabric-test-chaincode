@@ -13,6 +13,12 @@
 			"path": "malarcon.cl/test_golang",
 			"instantiatefuncname": "init",
 			"endorsement": "default"
+		},
+		"biometric_chaincode": {
+			"name": "test_feature",
+			"path": "malarcon.cl/biometric_chaincode",
+			"instantiatefuncname": "init",
+			"endorsement": "default"
 		}
 	},
 	"endorsements": {

@@ -101,7 +101,7 @@ curl -s -X POST \
   -d '{
 	"orgs":["MainOrg", "Org1", "Org2"],
 	"channel":"allorgs-channel",
-	"chaincode":"test_golang"
+	"chaincode":"biometric_chaincode"
 }'
 
 echo

@@ -3,7 +3,7 @@
 curr=$(pwd)
 
 cd ..
-cd ./chaincode/src/malarcon.cl/test_golang
+cd ./chaincode/src/malarcon.cl/biometric_chaincode
 go mod vendor
 
 cd $curr

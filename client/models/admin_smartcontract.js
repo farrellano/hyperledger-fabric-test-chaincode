@@ -397,7 +397,7 @@ const invoke = async function (ccparams) {
 			response: response,
 			txId: tx_id.getTransactionID()
 		}
-		return commons.formatResult(true, 'Successfully sent invoke transaction to the orderer.', output);
+		return commons.formatResult(true, 'Invoke new biometric record', output);
 	}
 
 	return commons.formatResult(false, 'Failed to execute invoke transaction to the orderer for SC: ' + smartContract, response);
@@ -450,7 +450,7 @@ const query = async function (ccparams) {
 
 	if (allAgree) {
 		logger.debug('Successful query transaction.');
-		return commons.formatResult(true, 'Successful Query Transaction', last);
+		return commons.formatResult(true, 'Biometric Transaction Successful', last);
 	} else {
 		logger.debug('Successful query transaction, but results differs.');
 		return commons.formatResult(false, 'Not all peers agree on the query result', last);
